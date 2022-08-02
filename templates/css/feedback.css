@@ -1,0 +1,76 @@
+.feedback{
+margin: 104px 0 64px;
+padding: 0 8%;
+}
+.feedbackText{
+text-align: center;
+font: 48px Montserrat;
+display: block;
+margin: 0 0 80px;
+}
+.feedbackVideoBox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.feedbackVideo1{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.feedbackVideo2{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* 1-ый отзыв */
+.feedback1Flex{
+    display: flex;
+    flex-direction: column;
+}
+.feedback1{
+    padding: 32px;
+    width: 496px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 235, 235);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.feedback1Name{
+    font: 22px Montserrat;
+    margin: 0 0 4px;
+}
+.feedback1Proff{
+    font: 18px Montserrat;
+    color: rgb(100, 100, 100);
+    margin: 0 0 24px;
+}
+.feddback1Message{
+    font: 18px Montserrat;
+}
+
+/* 2-ой отзыв */
+.feedback2Flex{
+    display: flex;
+    flex-direction: column;
+}
+.feedback2{
+    padding: 32px;
+    width: 496px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 235, 235);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.feedback2Name{
+    font: 22px Montserrat;
+    margin: 0 0 4px;
+}
+.feedback2Proff{
+    font: 18px Montserrat;
+    color: rgb(100, 100, 100);
+    margin: 0 0 24px;
+}
+.feddback2Message{
+    font: 18px Montserrat;
+}

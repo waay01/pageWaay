@@ -1,0 +1,52 @@
+/* Навигация */
+header{
+    position: relative;
+}
+nav{
+    min-width: 1024px;
+    background-color: #6c7ecd;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 55px;
+    min-width: 320px;
+    max-width: 1376px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+nav div a{
+    font: bold 14px Montserrat;
+    text-decoration: none;
+    color: aliceblue;
+}
+.mobileoff{
+    display: none;
+}
+
+/* мобайл */
+@media only screen and (max-width: 833px){
+    /* Навигация */
+    header{
+        position: relative;
+    }
+    nav{
+        min-width: auto;
+        background-color: #6c7ecd;
+    }
+    .navbar{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        height: auto;
+        min-width: auto;
+    }
+    nav div a{
+        font: bold 16px Montserrat;
+        margin: 8px 0;
+    }
+    .mobileoff{
+        display: block;
+    }
+}
