@@ -1,9 +1,9 @@
 /* Картинка and текст */
-.backgroundImg{
+.tagline{
     margin: 0 auto;
     width: auto;
     height: 512px;
-    background-image: url(/css/img/background.webp);
+    background-image: url('../img/background.webp');
     background-position: 50%;
 }
 .textonImg1{
@@ -29,10 +29,10 @@
 /* мобайл */
 @media only screen and (max-width: 833px){
     /* Картинка and текст */
-    .backgroundImg{
+    .tagline{
         width: auto;
         height: 440px;
-        background-image: url(/css/img/backgroundMobile.webp);
+        background-image: url('../img/backgroundMobile.webp');
         background-position: 72%;
     }
     .textonImg1{
