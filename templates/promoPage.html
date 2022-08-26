@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block promoPage %}
+
+<div class="promo">
+    <p class="bigText">Акции и спецпредложения</p>
+    <div class="boxCase">
+    <svg class="caseAngel" xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="48" height="48"><path d="M17.17,24a1,1,0,0,1-.71-.29L8.29,15.54a5,5,0,0,1,0-7.08L16.46.29a1,1,0,1,1,1.42,1.42L9.71,9.88a3,3,0,0,0,0,4.24l8.17,8.17a1,1,0,0,1,0,1.42A1,1,0,0,1,17.17,24Z"/></svg>
+        <div class="case">
+            <div class="caseFlex">
+                <p class="caseFlexText">Бессрочная акция</p>
+            </div>
+            <img src="{% static 'img\3_2_2.webp' %}" class="caseImg">
+            <p class="caseText">Сайт бесплатно общественным организациям</p>
+        </div>
+
+        <div class="case">
+            <div class="caseFlex">
+                <p class="caseFlexText">До конца года</p>
+            </div>
+            <img src="{% static 'img\variant_1.webp' %}" class="caseImg">
+            <p class="caseText">Дарим домен при оплате создания сайта бесплатно</p>
+        </div>
+
+        <div class="case">
+            <div class="caseFlex">
+                <p class="caseFlexText">Бессрочная акция</p>
+            </div>
+            <img src="{% static 'img\2_2_1.webp' %}" class="caseImg">
+            <p class="caseText">CRM бесплатно за интернет-магазин</p>
+        </div>
+
+        <div class="case">
+            <div class="caseFlex">
+                <p class="caseFlexText">Сайт + Продвижение</p>
+            </div>
+            <img src="{% static 'img\4_48.webp' %}" class="caseImg">
+            <p class="caseText">Интернет-магазин бесплатно при оплате продвижения на 3 месяца </p>
+        </div>
+
+        <div class="case">
+            <div class="caseFlex">
+                <p class="caseFlexText">Бессрочная акция</p>
+            </div>
+            <img src="{% static 'img\8_21.webp' %}" class="caseImg">
+            <p class="caseText">"Чат на сайте" - 2 недели бесплатно</p>
+        </div>
+        <svg class="caseAngel" xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="48" height="48"><path d="M7,24a1,1,0,0,1-.71-.29,1,1,0,0,1,0-1.42l8.17-8.17a3,3,0,0,0,0-4.24L6.29,1.71A1,1,0,0,1,7.71.29l8.17,8.17a5,5,0,0,1,0,7.08L7.71,23.71A1,1,0,0,1,7,24Z"/></svg>
+    </div>
+
+    <div class="boxBottomPromo">
+        <div class="boxBottomPromo1">
+            <p class="textBottomPromo">Если вы сейчас на этой странице, то прямо сейчас есть шанс заказать создание сайта по акции. Наши специалисты проведут консультацию, выявят потребности ваших клиентов и бизнеса. Вам предложат подходящий тариф: лендинг, сайт «Бизнес» или интернет-магазин. Менеджер сориентирует по этапам работы и стоимости, как только вы ответите на его вопросы.</p>
+            <p class="textBottomPromo">Клиентам, которые доверили нам создать веб-сайт, по промоакции доступно бесплатное использование онлайн-консультанта «Оникон». Есть сайт, но хотелось бы проверить его эффективность? Обратите внимание на бессрочную акцию по аудиту контекстной рекламы.</p>
+        </div>
+        <div class="boxBottomPromo2">
+            <p class="textBottomPromo">Есть компании, которым мы можем разработать сайт бесплатно. Это некоммерческие детские и общественные организации, связанные с благотворительностью. Мы готовы на добрые дела и поможем донести важную информацию до вашей аудитории. Скидка на разработку сайта часто приурочена к праздникам: советуем чаще заглядывать на сайт веб-студии Megagroup.ru или в социальные сети, чтобы сэкономить. </p>
+            <div class="boxLinkBottom">
+                <a href="#" class="linkBottomPromo">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.146 5.773c.455 0 1.157.553 1.157 1.15v10.198c0 .674-.636 1.15-1.157 1.15H5.084c-.503 0-1.157-.497-1.157-1.156 0 0-.035-8.134 0-8.115l7.858 4.24c.225.122.498.11.711-.03l6.363-4.18a.694.694 0 10-.762-1.16l-6.015 3.95-8.52-4.595a.695.695 0 00-1.024.61v9.28c0 1.521 1.346 2.545 2.546 2.545h14.062c1.215 0 2.546-.997 2.546-2.538V6.923c0-1.446-1.388-2.538-2.546-2.538H5.526a.694.694 0 000 1.388h13.62z" fill="#333"></path></svg>
+                    <span class="buttonText">Подписаться</span>
+                </a>
+                <p class="textBottomPromo">Вы можете подписаться на рассылку — мы всегда информируем клиентов о возможных выгодах!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

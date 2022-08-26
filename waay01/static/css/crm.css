@@ -3,7 +3,7 @@
     margin: 104px 0 64px;
 }
 .crmText{
-    font: 48px Montserrat;
+    font: 48px Inter;
     text-align: center;
     display: block;
     margin: 0 0 80px 0;
@@ -20,19 +20,19 @@
 .crm1{
     width: 310px;
     height: 410px;
-    border-radius: 15px;
+    border-radius: 20px;
     border: solid 3px rgb(6, 151, 6);
 }
 .crm2{
     width: 310px;
     height: 410px;
-    border-radius: 15px;
+    border-radius: 20px;
     border: solid 3px rgb(6, 151, 6)
 }
 .crm3{
     width: 310px;
     height: 410px;
-    border-radius: 15px;
+    border-radius: 20px;
     border: solid 3px rgb(6, 151, 6)
 }
 
@@ -40,32 +40,32 @@
 /* Строчки */
 .crmText1{
     text-align: center;
-    font: 24px Montserrat;
+    font: 24px Inter;
     margin: 41px 0;
     color: black;
 }
 .crmText2{
     text-align: center;
-    font: 18px Montserrat;
+    font: 18px Inter;
     margin: 45px 0;
-    padding: 0px 10%;
+    padding: 0px 12%;
     color: rgb(97, 97, 97);
 }
 .crmText3{
     text-align: center;
-    font: 24px Montserrat;
+    font: 24px Inter;
     margin: 45px 0;
     color: black;
 }
 .crmText4{
     text-align: center;
-    font: 20px Montserrat;
+    font: 20px Inter;
     margin: 45px 0;
     color: #1CA345;
 }
 .crmText5{
     text-align: center;
-    font: 18px Montserrat;
+    font: 18px Inter;
     color: rgb(19, 54, 168);
 }
 

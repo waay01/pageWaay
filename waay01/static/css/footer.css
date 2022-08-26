@@ -1,0 +1,100 @@
+footer{
+    position: relative;
+    min-width: 1024px;
+    background-color: rgb(9, 9, 9);
+}
+.footerBox{
+    margin: 0 300px;
+    padding: 32px 0px;
+}
+.footerText{
+    display: flex;
+    justify-content: space-evenly;
+    font: 16px Inter;
+}
+.footerLogo{
+    text-decoration: none;
+    color: white;
+    font: 500 16px Inter;
+    margin: 0;
+}
+
+/* case1 */
+.case1{
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    display: flex;
+    margin: 24px 0;
+}
+.footerSocialLink{
+    text-decoration: none;
+    color: #949494;
+    margin: 0px 16px 0 0;
+}
+.footerSocialLink:hover{
+    color: red;
+}
+.subNewsletter{
+    text-decoration: none;
+    color: #949494;
+}
+.subNewsletter:hover {
+    color: white;
+    transition: .3s;
+}
+.footerCopyright{
+    font: 14px Inter;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    color: #828181;
+    margin: 0 0 8px 0;
+}
+/* case2 */
+.case2{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.Info {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0 0 0;
+}
+.footerInfoLink{
+    text-decoration: none;
+    color: #949494;
+    margin-bottom: 8px;
+}
+.footerInfoLink:hover{
+    color: white;
+    transition: .3s;
+}
+/* case3 */
+.case3{
+    display: flex;
+    flex-direction: column;
+}
+.project{
+
+}
+@media only screen and (max-width: 833px){
+    footer{
+        position: relative;
+        min-width: 0;
+        width: 100%;
+        background-color: rgb(9, 9, 9);
+    }
+    .footerBox{
+        margin: 0 5%;
+        padding: 32px 0px;
+    }
+    .footerText {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        font: 16px Inter;
+    }
+}

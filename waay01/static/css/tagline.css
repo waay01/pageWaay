@@ -11,18 +11,18 @@
     height: 100%;
 }
 .textonImg2{
-    width: 70%;
+    width: 784px;
     height: 50%;
     position: relative;
     top: 128px;
     float: right;
 }
 .textonImg3{
-    font: 43px Montserrat;
+    font: 43px Inter;
     margin: 25px 0;
 }
 .textonImg4{
-    font: 20px Montserrat;
+    font: 20px Inter;
     color: #181818;
 }
 
@@ -46,12 +46,12 @@
         text-align: center;
     }
     .textonImg3{
-        font: 43px Montserrat;
+        font: 43px Inter;
         margin: 25px 0;
         color: aliceblue;
     }
     .textonImg4{
-        font: 20px Montserrat;
+        font: 20px Inter;
         color: #9c9c9c;
     }
 }

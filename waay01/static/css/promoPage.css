@@ -1,0 +1,90 @@
+.bigText{
+    font: 48px Inter;
+    text-align: center;
+}
+
+.boxCase{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 152px;
+    margin: 72px 0;
+}
+
+.case{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: solid 3px #9c9c9c;
+    width: 260px;
+    height: 330px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.boxBottomPromo{
+    display: flex;
+    padding: 32px 182px;
+}
+
+.boxBottomPromo1{
+    padding: 0 10px;
+    width: 900px;
+}
+
+.boxBottomPromo2{
+    padding: 0 10px;
+    width: 900px;
+}
+
+
+.textBottomPromo{
+    font: 13px Inter;
+    color: #4f4f4f;
+    margin-left: 12px;
+}
+
+.linkBottomPromo{
+    display: inline-flex;
+    align-items: center;
+    font: 600 13px Inter;
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+}
+
+.buttonText{
+    margin-left: 8px;
+}
+.boxLinkBottom{
+    display: flex;
+}
+
+.caseImg{
+
+}
+
+.caseText{
+    font: bold 16px Inter;
+    margin: 8px 32px;
+    text-align: center;
+}
+
+.caseFlex{
+    background-color: #6e4dd0;
+    border-radius: 8px;
+    margin: 10px;
+    height: 30px;
+}
+
+.caseFlexText{
+    font: bold 14px Inter;
+    color: white;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.caseAngel{
+
+}

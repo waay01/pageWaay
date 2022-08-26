@@ -1,15 +1,16 @@
 /* Навигация */
 header{
     position: relative;
+    border-bottom: solid 2px rgb(220, 220, 220);
 }
 nav{
     min-width: 1024px;
-    background-color: #6c7ecd;
+    background-color: #FBF5F0;
 }
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 55px;
     min-width: 320px;
     max-width: 1376px;
@@ -17,9 +18,9 @@ nav{
     padding: 0 12px;
 }
 nav div a{
-    font: bold 14px Montserrat;
+    font: 500 15px Inter;
     text-decoration: none;
-    color: aliceblue;
+    color: black;
 }
 .mobileoff{
     display: none;
@@ -33,7 +34,7 @@ nav div a{
     }
     nav{
         min-width: auto;
-        background-color: #6c7ecd;
+        background-color: #FBF5F0;
     }
     .navbar{
         display: flex;
@@ -43,7 +44,7 @@ nav div a{
         min-width: auto;
     }
     nav div a{
-        font: bold 16px Montserrat;
+        font: 500 16px Inter;
         margin: 8px 0;
     }
     .mobileoff{

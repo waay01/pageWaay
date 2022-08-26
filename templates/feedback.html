@@ -6,22 +6,43 @@
     <div class="feedbackVideoBox">
 
         <div class="feedback1Flex">
-            <iframe class="feedbackVideo1" width="560" height="315" src="https://www.youtube.com/embed/cXTaayxltt0?iv_load_policy=3&modestbranding=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="feedback1">
-                <div class="feedback1Name">Алена Манцурова</div>
-                <div class="feedback1Proff">Ремонт и обслуживание спецтехники</div>
-                <div class="feddback1Message">Благодаря сайту число клиентов в нашей фирме за последний год увеличилось в два раза. Присоединяйтесь к нам! Компания  Мегагрупп поможет Вам создать удобный для работы сайт, благодаря которому Вы сможете увеличить число клиентов и увеличить свой доход.</div>
+            <div class="feedback1Box">
+                <video controls preload="metadata" playsinline class="feedbackVideo" >
+                    <source src="{% static 'video\video.mp4' %}" type="video/mp4">
+                    "
+                    Ваш браузер не поддерживает данное видео.
+                    "
+                </video>
+                <div class="feedback1">
+                    <div class="feedback1Name">Алена Манцурова</div>
+                    <div class="feedback1Proff">Ремонт и обслуживание спецтехники</div>
+                    <div class="feedback1Message">Благодаря сайту число клиентов в нашей фирме за последний год увеличилось в два раза. Присоединяйтесь к нам! Компания  Мегагрупп поможет Вам создать удобный для работы сайт, благодаря которому Вы сможете увеличить число клиентов и увеличить свой доход.</div>
+                </div>
             </div>
         </div>
 
-        <div class="feedback2Flex">
-            <iframe class="feedbackVideo2" width="560" height="315" src="https://www.youtube.com/embed/HelwAQDkbUo?iv_load_policy=3&modestbranding=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
-            <div class="feedback2">
-                <div class="feedback2Name">Сорокина Екатерина</div>
-                <div class="feedback2Proff">Антиквариат</div>
-                <div class="feddback2Message">Был сайт в другой компании, но там не подошла система управления. Мы начали искать другую платформу, куда перенести наш домен. Нашли компанию Мегагрупп, и очень-очень рады этому. Благодаря им быстро создали интернет-магазин. Огромное спасибо службе поддержки за терпение, за быструю помощь и реагирование. Если возникают...</div>
-            </div>
-        </div>
-    </div>
+
+
+
+
+                        Переделать
+
+
+
+
+
+
+
+
+
+<!--        <div class="feedback2Flex">-->
+<!--            <iframe class="feedbackVideo2" src="https://www.youtube.com/embed/HelwAQDkbUo?iv_load_policy=3&modestbranding=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>-->
+<!--            <div class="feedback2">-->
+<!--                <div class="feedback2Name">Сорокина Екатерина</div>-->
+<!--                <div class="feedback2Proff">Антиквариат</div>-->
+<!--                <div class="feedback2Message">Был сайт в другой компании, но там не подошла система управления. Мы начали искать другую платформу, куда перенести наш домен. Нашли компанию Мегагрупп, и очень-очень рады этому. Благодаря им быстро создали интернет-магазин. Огромное спасибо службе поддержки за терпение, за быструю помощь и реагирование. Если возникают...</div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 </div>
 {% endblock  %}

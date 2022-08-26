@@ -19,5 +19,8 @@ from crm import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.indexPage, name="Лицевая страница"),
+    path('', views.indexPage, name='Лицевая страница'),
+    path('promo/', views.promoPage, name='Акции'),
+    path('examples/', views.examplesPage, name='Примеры работ'),
+    path('contacts/', views.contactsPage, name='Контакты'),
 ]
